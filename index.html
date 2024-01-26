@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <meta
+      name="keyword"
+      content="Rhidayvir Singh Dhamija, portfolio, javascript, student, developer"
+    />
+    <meta
+      name="description"
+      content="Recent Computer Programming graduates with proficiency 
+      in languages such as HTML, CSS, C, C++, PHP, Python, 
+      and JavaScript."
+    />
+    <meta property="og:title" content="Rhidayvir Singh Dhamija | Student and Developer" />
+    <meta
+      property="og:description"
+      content="Recent Computer Programming graduates with proficiency 
+      in languages such as HTML, CSS, C, C++, PHP, Python, 
+      and JavaScript."
+    />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/46205282?s=400&u=e45c30c63d63d42eb50136cca684ba72bba1741b&v=4"
+    />
+    <meta
+      property="og:url"
+      content=""
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script defer src="script.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <script
+      defer
+      src="https://code.iconify.design/1/1.0.7/iconify.min.js"
+    ></script>
+    <title>Rhidayvir Singh Dhamija | Portfolio</title>
+  </head>
+  <body>
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- HEADER -->
+    <header id="home">
+      <nav id="nav" aria-label="Main menu">
+        <div class="logo">
+          <h3>Rhidayvir <span>Singh</span></h3>
+        </div>
+
+        <ul class="links">
+          <li>
+            <a href="#home" class="link"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about" class="link"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#skills" class="link"
+              ><i class="fas fa-tools"></i> Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="link"
+              ><i class="fab fa-codepen"></i> Projects</a
+            >
+          </li>
+          <li>
+            <!-- DARK MODE TOGGLE -->
+            <div class="color-toggle-container">
+              <input type="checkbox" id="color-toggle-input" />
+              <label for="color-toggle-input" class="color-toggle-label">
+                <div class="color-toggle"></div>
+              </label>
+            </div>
+          </li>
+        </ul>
+
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <!-- HERO SECTION -->
+      <div class="hero">
+        <h1 class="h1">Hi, I'm a <span class="animate"></span></h1>
+        <p class="student" id="student">
+          Recently Graduated Computer Programming Student
+        </p>
+        <div class="hero-btns">
+          <a href="#about" class="about" id="about-btn">About me</a>
+          <a href="#projects" class="projects-btn" id="projects-btn"
+            >Projects</a
+          >
+        </div>
+      </div>
+
+      <!-- SOCIAL LINKS -->
+      <div class="socials" id="socials">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rvsdhamija"
+              target="_blank"
+              class="linkedin"
+              aria-label="LinkedIn"
+              rel="noopener"
+              >LinkedIn<i class="fi-snsuxl-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/rvsdhamija"
+              target="_blank"
+              class="github"
+              aria-label="GitHub"
+              rel="noopener"
+              >GitHub<i class="fi-snsuxl-github-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="mailto:rvsdhamija@gmail.com"
+              target="_blank"
+              class="email"
+              aria-label="Email"
+              rel="noopener"
+              >Email<i class="fi-xwsuxl-envelope-solid"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT ME -->
+      <section id="about">
+        <div class="container-about">
+          <div class="about-me" id="about-me">
+            <h2><span>About</span> Me</h2>
+            <p>
+              Recent Computer Programming graduates with proficiency 
+              in languages such as HTML, CSS, C, C++, PHP, Python, 
+              and JavaScript. Demonstrated success in designing 
+              efficient algorithms and applications, thriving in 
+              collaborative environments. A quick learner committed 
+              to staying current with industry trends and emerging 
+              technologies, with additional expertise in SQL and 
+              database management for a comprehensive skill set in 
+              software development.
+            </p>
+          </div>
+          <div class="student-img">
+            <img
+              src="./images/hello.svg"
+              height="250px"
+              width="350px"
+              alt="guy with laptop on a desk"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="header" id="header">
+          <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="container lazy-background" id="container">
+          <div class="languages">
+            <p><i class="fas fa-code"></i></p>
+            <h3>Languages</h3>
+            <span
+              >HTML
+              <span
+                class="iconify"
+                data-icon="logos:html-5"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >CSS
+              <span
+                class="iconify"
+                data-icon="logos:css-3"
+                data-inline="false"
+              ></span>
+              </span>
+            <br />
+            <span
+              >JS
+              <span
+                class="iconify"
+                data-icon="logos:javascript"
+                data-inline="false"
+              ></span>
+              </span>
+            <br />
+            <span
+              >Python
+              <span
+                class="iconify"
+                data-icon="logos:python"
+                data-inline="false"
+              ></span
+            ></span>
+            <br />
+            <span
+              >PHP 
+              <span 
+                class="iconify" 
+                data-icon="logos:php"
+              ></span
+            ></span>
+            <br />
+            <span
+              >C/C++ 
+              <span 
+                class="iconify" 
+                data-icon="logos:c"
+              ></span
+              ><span 
+                class="iconify" 
+                data-icon="logos:cplusplus"
+              ></span
+            ></span>
+            <br />
+            </span>
+            <br />
+            
+          </div>
+
+          <div class="frameworks">
+            <p><i class="fas fa-book-reader"></i></p>
+            <h3>Frameworks/Libraries/Databases</h3>
+            <span
+              >SQL
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-sql"
+              ></span
+            >
+            <br />
+            <span
+              >MongoDB
+              <span
+                class="iconify"
+                data-icon="vscode-icons:file-type-mongo"
+              ></span
+            ></span>
+            <br />
+            <span
+              >jQuery
+              <span
+                class="iconify"
+                data-icon="bx:bxl-jquery"
+                data-inline="false"
+              ></span>
+            </span>
+          </div>
+
+          <div class="technologies">
+            <p><i class="fas fa-tools"></i></p>
+            <h3>Technologies</h3>
+            <span
+              >Git
+              <span
+                class="iconify"
+                data-icon="logos:git-icon"
+                data-inline="false"
+              ></span
+            ></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT SHOWCASE -->
+      <section id="projects">
+        <div class="header" id="header">
+          <h2>My <span>Projects</span></h2>
+        </div>
+        <div style="color:white;text-align: center;padding: 10%; font-weight:bold;">
+          To be updated soon !
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
